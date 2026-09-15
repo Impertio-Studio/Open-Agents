@@ -448,8 +448,8 @@ Zes simpele agents. Elk doet één ding. Samen: volledige code review.
 
 | # | Agent | Input | Output | Beschrijving |
 |---|-------|-------|--------|--------------|
-| G-01 | `generate-commit-msg` | Git diff | Commitboodschap (Conventional Commits) | Genereert een commitboodschap op basis van een diff |
-| G-02 | `validate-commit-msg` | Commitboodschap | Validatierapport: geldig/ongeldig | Valideert een commitboodschap tegen Conventional Commits |
+| G-01 | `generate-commit-msg` | Git diff | Commitboodschap in het formaat van de repository | Genereert een commitboodschap op basis van een diff |
+| G-02 | `validate-commit-msg` | Commitboodschap | Validatierapport: geldig/ongeldig | Valideert een commitboodschap tegen het formaat van de repository |
 | G-03 | `classify-commit` | Commitboodschap | Committype (feat, fix, docs, etc.) | Classificeert een commitboodschap naar type |
 | G-04 | `split-commit-suggestion` | Grote diff | Gesuggereerde opdeling in atomaire commits | Stelt voor hoe een grote commit gesplitst kan worden |
 | G-05 | `squash-suggestion` | Lijst van commitboodschappen | Gesuggereerde gecombineerde boodschap | Suggereert hoe meerdere commits samengeperst kunnen worden |
